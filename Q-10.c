@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//specify the column size for 2D array parameters
+//2D array parameters
 void rev(int arr[][100], int n) {
     // Step 1: Transpose the matrix
     for (int i = 0; i < n; i++) {
