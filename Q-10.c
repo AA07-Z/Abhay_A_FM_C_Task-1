@@ -2,7 +2,7 @@
 
 //2D array parameters
 void rev(int arr[][100], int n) {
-    // Step 1: Transpose the matrix
+    //Transpose the matrix
     for (int i = 0; i < n; i++) {
         for (int j = i + 1; j < n; j++) {
             int temp = arr[i][j];
@@ -38,7 +38,6 @@ int main() {
     printf("Enter the elements:\n");
     for (i = 0; i < n; i++) {
         for (j = 0; j < n; j++) {
-            // Added '&' to fix the scanf bug
             scanf("%d", &arr[i][j]);
         }
     }
